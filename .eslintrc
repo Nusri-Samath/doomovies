@@ -28,7 +28,13 @@
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     // https://github.com/typescript-eslint/typescript-eslint/issues/2619
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   },
   "overrides": [
     {

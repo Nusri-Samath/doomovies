@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-template",
+  "name": "doomovies",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -80,7 +80,10 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": ["npm run format", "npm run lint"],
+    "src/**/*.{ts,tsx}": [
+      "npm run format",
+      "npm run lint"
+    ],
     "src/**/*.scss": "npm run style-lint"
   }
 }
